@@ -1,5 +1,3 @@
-PhotoCraft
-
 <p align="center">
   <a href="https://getartcraft.com/">
     <picture>
@@ -7,472 +5,464 @@ PhotoCraft
       <img alt="ArtCraft" src="docs/brand/artcraft-logo.svg" width="200">
     </picture>
   </a>
-</p><p align="center">
-  <img src="assets/app-icon/hicolor/256x256/apps/ai.storyteller.photocraft.png" width="128" height="128" alt="Icono de PhotoCraft: un zorro de nueve colas grabado sobre una baldosa azul">
-</p><h1 align="center">PhotoCraft</h1><p align="center">
-  <b>Edición de imágenes: una reimplementación independiente y de código abierto de Adobe Photoshop, reconstruida íntegramente en Rust.</b><br>
-  Capas, máscaras, capas de ajuste, estilos de capa, texto, vectores, pinceles y archivos PSD reales,<br>
-  en una aplicación nativa escrita completamente en Rust. Código abierto, sin conexión y bajo tu control.
-</p><p align="center">
-  <img alt="100 % Rust" src="https://img.shields.io/badge/100%25-Rust-b7410e?style=flat-square&logo=rust">
-  <img alt="macOS · Windows · Linux · FreeBSD · Web" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux%20%C2%B7%20FreeBSD%20%C2%B7%20Web-native-2f7bf5?style=flat-square">
-  <img alt="Licencia: MIT o Apache-2.0" src="https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-3a3a3a?style=flat-square">
-  <img alt="Estado: versión alfa inicial" src="https://img.shields.io/badge/status-early%20alpha-d69e2e?style=flat-square">
-  <br>
-  <a href="https://sonarcloud.io/project/overview?id=storytold_photocraft"><img alt="Analizado por SonarCloud" src="https://img.shields.io/badge/Scanned_by-SonarCloud-4b9fd5?style=flat-square&logo=sonarqubecloud&logoColor=white"></a>
-  <a href="https://coderabbit.ai"><img alt="Revisado por CodeRabbit" src="https://img.shields.io/coderabbit/prs/github/storytold/photocraft?style=flat-square&label=Revisado%20por%20CodeRabbit&logo=coderabbit"></a>
-</p><p align="center">
-  <a href="https://discord.gg/artcraft"><img alt="Únete a la comunidad de ArtCraft en Discord" src="https://img.shields.io/badge/Únete%20a%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
-</p><p align="center">
-  <a href="https://getartcraft.com/apps/photocraft"><b>PhotoCraft en getartcraft.com</b></a> ·
-  <a href="https://getartcraft.com/">ArtCraft</a> ·
-  <a href="https://getartcraft.com/apps">Todas las aplicaciones creativas</a>
-</p><br><p align="center">
-  <img src="docs/images/photocraft-demo.jpg" alt="PhotoCraft editando La gran ola de Hokusai" width="100%">
-  <br>
-  <sub>Una tarjeta de texto con sombra, texto editable y capas de ajuste de Intensidad y Curvas, con el editor de Curvas abierto.<br>
-  <i>La gran ola de Kanagawa</i>, Katsushika Hokusai, c. 1831</sub>
-</p>«[!NOTE]
-ArtCraft es una comunidad de artistas de todos los ámbitos. Arte digital, generativo, música, videojuegos... Si creas cosas, formas parte de nosotros. "Ven a saludarnos a Discord" (https://discord.gg/artcraft).»
+</p>
 
 <p align="center">
-  <a href="#características">Características</a> ·
-  <a href="#todo-lo-que-incluye">Todo lo que incluye</a> ·
-  <a href="#compatibilidad-psd-sin-compromisos">PSD</a> ·
-  <a href="#preparado-para-agentes">Agentes</a> ·
-  <a href="#funcionamiento-interno">Funcionamiento interno</a> ·
-  <a href="#primeros-pasos">Primeros pasos</a> ·
-  <a href="#descargas">Descargas</a> ·
-  <a href="#aplicaciones-crafting">Aplicaciones Crafting</a> ·
+  <img src="assets/app-icon/hicolor/256x256/apps/ai.storyteller.photocraft.png" width="128" height="128" alt="PhotoCraft icon: an engraved nine-tailed fox on a blue tile">
+</p>
+
+<h1 align="center">PhotoCraft</h1>
+
+<p align="center">
+  <b>Image editing; an open-source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust.</b><br>
+  Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files,<br>
+  in a native app written entirely in Rust. Open source, offline, and yours.
+</p>
+
+<p align="center">
+  <img alt="100% Rust" src="https://img.shields.io/badge/100%25-Rust-b7410e?style=flat-square&logo=rust">
+  <img alt="macOS · Windows · Linux · FreeBSD · Web" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux%20%C2%B7%20FreeBSD%20%C2%B7%20Web-native-2f7bf5?style=flat-square">
+  <img alt="License: MIT OR Apache-2.0" src="https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-3a3a3a?style=flat-square">
+  <img alt="Status: early alpha" src="https://img.shields.io/badge/status-early%20alpha-d69e2e?style=flat-square">
+  <br>
+  <a href="https://sonarcloud.io/project/overview?id=storytold_photocraft"><img alt="Scanned by SonarCloud" src="https://img.shields.io/badge/Scanned_by-SonarCloud-4b9fd5?style=flat-square&logo=sonarqubecloud&logoColor=white"></a>
+  <a href="https://coderabbit.ai"><img alt="Reviewed by CodeRabbit" src="https://img.shields.io/coderabbit/prs/github/storytold/photocraft?style=flat-square&label=Reviewed%20by%20CodeRabbit&logo=coderabbit"></a>
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/artcraft"><img alt="Join the ArtCraft community on Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
+</p>
+
+<p align="center">
+  <a href="https://getartcraft.com/apps/photocraft"><b>PhotoCraft on getartcraft.com</b></a> ·
+  <a href="https://getartcraft.com/">ArtCraft</a> ·
+  <a href="https://getartcraft.com/apps">All Crafting Apps</a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/images/photocraft-demo.jpg" alt="PhotoCraft editing Hokusai's The Great Wave: a caption card with a drop shadow, Title and Credit type layers, Vibrance and Curves adjustment layers, and the Curves editor drawn over the image's histogram" width="100%">
+  <br>
+  <sub>A caption card with a drop shadow, live type, and Vibrance and Curves adjustment layers, with the Curves editor open.<br>
+  <i>The Great Wave off Kanagawa</i>, Katsushika Hokusai, c. 1831</sub>
+</p>
+
+> [!NOTE]
+> **ArtCraft is a community of artists from all walks of life.** Digital, generative, music,
+> games &mdash; if you make things, you're one of us. **[Come say hi on Discord](https://discord.gg/artcraft).**
+
+<p align="center">
+  <a href="#features">Features</a> ·
+  <a href="#everything-in-the-box">Everything in the box</a> ·
+  <a href="#psd-without-compromise">PSD</a> ·
+  <a href="#built-for-agents">Agents</a> ·
+  <a href="#under-the-hood">Under the hood</a> ·
+  <a href="#get-started">Get started</a> ·
+  <a href="#downloads">Downloads</a> ·
+  <a href="#the-crafting-apps">Crafting Apps</a> ·
   <a href="https://discord.gg/artcraft">Discord</a>
-</p><br><table>
+</p>
+
+<br>
+
+<table>
   <tr>
     <td width="25%" valign="top">
-      <h3>🎛️ Diseño familiar</h3>
-      Los menús, atajos de teclado, paneles y herramientas están donde tus manos esperan encontrarlos, desde ⌘J hasta ⇧⌘D. Si conoces Photoshop, ya sabes utilizar PhotoCraft.
+      <h3>🎛️ Familiar by design</h3>
+      The menus, shortcuts, panels and tools are where your hands expect them, from ⌘J to ⇧⌘D. If you know Photoshop, you already know PhotoCraft.
     </td>
     <td width="25%" valign="top">
-      <h3>⚡ Nativo y rápido</h3>
-      Un compositor GPU basado en wgpu (Metal, Vulkan, DX12 y WebGPU), mosaicos con copia al escribir y filtros multinúcleo. Sin Electron, sin vistas web y sin esperas.
+      <h3>⚡ Native and fast</h3>
+      A GPU compositor on wgpu (Metal, Vulkan, DX12, WebGPU), copy-on-write tiles and multithreaded filters. No Electron, no web view, no waiting.
     </td>
     <td width="25%" valign="top">
-      <h3>🗂️ Archivos PSD reales</h3>
-      Abre, edita y guarda documentos de Photoshop con capas. Al volver a guardar, se conserva la representación visual de 307 de los 309 archivos de prueba de psd-tools.
+      <h3>🗂️ Real PSD files</h3>
+      Open, edit and save layered Photoshop documents. Re-saving keeps the render of 307 of the 309 psd-tools test files.
     </td>
     <td width="25%" valign="top">
-      <h3>🤖 Preparado para agentes</h3>
-      Cada acción es un comando, por lo que puedes controlar el mismo motor desde la interfaz, la CLI, un canal de control JSON o un servidor MCP.
+      <h3>🤖 Agent-ready</h3>
+      Every action is a command, so you can drive the same engine from the UI, the CLI, a JSON control channel or an MCP server.
     </td>
   </tr>
-</table><br>Características
+</table>
 
-Todas las capturas de pantalla de esta sección muestran la aplicación real trabajando con obras de dominio público, renderizadas fuera de pantalla mediante su canal de control.
+<br>
+
+## Features
+
+Every screenshot here is the real app at work on public-domain art, rendered offscreen through its control channel.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-adjustments.jpg" alt="Monet, Impresión, sol naciente, con capas de ajuste de Niveles e Intensidad" width="100%">
+      <img src="docs/images/photocraft-adjustments.jpg" alt="Monet's Impression, Sunrise with Levels and Vibrance adjustment layers; the Levels editor and the Histogram panel with mean, standard deviation and median are open on the right" width="100%">
       <br>
-      <sub>Capas de ajuste de Niveles e Intensidad, con el panel de Histograma en tiempo real.<br><i>Impresión, sol naciente</i>, Claude Monet, 1872</sub>
-      <h3>Edita sin arrepentimientos</h3>
-      Las capas de ajuste mantienen todas las modificaciones editables. Combina Niveles, Curvas, Intensidad, Tono/Saturación y muchas otras opciones, aplícalas a determinadas áreas mediante máscaras, cambia su orden o desactívalas. Los píxeles originales nunca se modifican.
+      <sub>Levels and Vibrance adjustment layers, with the live Histogram panel.<br><i>Impression, Sunrise</i>, Claude Monet, 1872</sub>
+      <h3>Edit without regret</h3>
+      Adjustment layers keep every edit live. Stack Levels, Curves, Vibrance, Hue/Saturation and a dozen more, mask them to an area, reorder them, or turn them off, and your original pixels never change.
       <br><br>
-      **16 capas de ajuste** que también pueden aplicarse directamente a los píxeles. Incluyen Curvas con edición por canales, Niveles con histograma en tiempo real, Blanco y negro, Mezclador de canales, Mapa de degradado, Filtro de fotografía, Color selectivo y Búsqueda de color (.cube, .3dl, .look). También incluyen Sombras/Iluminaciones, Reemplazar color, Igualar color, Tonalidad HDR, Desaturar e Igualar.
+      <b>16 adjustment layers</b> that also apply directly to pixels, including Curves with per-channel editing, Levels with a live histogram, Black &amp; White, Channel Mixer, Gradient Map, Photo Filter, Selective Color and Color Lookup (.cube, .3dl, .look). Plus Shadows/Highlights, Replace Color, Match Color, HDR Toning, Desaturate and Equalize.
     </td>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-layer-styles.jpg" alt="Ventana de estilos de capa editando un resplandor exterior" width="100%">
+      <img src="docs/images/photocraft-layer-styles.jpg" alt="The Layer Style dialog editing an Outer Glow on the EARTHRISE type layer, with Stroke also enabled, over the Apollo 8 Earthrise photograph" width="100%">
       <br>
-      <sub>Resplandor exterior y Trazo en una capa de texto editable, dentro del cuadro de estilos de capa.<br><i>Earthrise</i>, William Anders / NASA, 1968</sub>
-      <h3>Estilos que realzan tus imágenes</h3>
-      Sombra paralela, sombra interior, resplandor exterior e interior, bisel y relieve, satinado, trazo y superposiciones de color, degradado y motivo. Todos pueden aplicarse a cualquier capa, incluso a las de texto.
-      Los motivos proceden de una biblioteca (incluye los integrados, Editar › Definir motivo e importación/exportación de archivos <code>.pat</code>) y de los bloques PSD <code>Patt</code>.
+      <sub>Outer Glow and Stroke on a live type layer, in the Layer Style dialog.<br><i>Earthrise</i>, William Anders / NASA, 1968</sub>
+      <h3>Styles that sell the shot</h3>
+      Drop Shadow, Inner Shadow, Outer and Inner Glow, Bevel &amp; Emboss, Satin, Stroke, and Color, Gradient and Pattern Overlay, live on any layer, including type. Patterns come from a library (built-ins, Edit › Define Pattern, <code>.pat</code> import/export) and PSD <code>Patt</code> blocks.
       <br><br>
-      Copia y pega estilos entre capas, oculta todos los efectos a la vez y abre directamente los estilos de tus archivos PSD, con un resultado visual que busca coincidir con Photoshop.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/images/photocraft-masks.jpg" alt="La joven de la perla de Vermeer con selección elíptica y máscara de Tono y Saturación" width="100%">
-      <br>
-      <sub>Una selección elíptica se convierte en la máscara de una capa de Tono/Saturación, de modo que solo el rostro conserva su color.<br><i>La joven de la perla</i>, Johannes Vermeer, c. 1665</sub>
-      <h3>Selecciones que entienden tus imágenes</h3>
-      Herramientas de marco, lazos y Varita mágica para realizar selecciones precisas. Selección rápida, Selección de objetos y Seleccionar sujeto cuando quieras que el ordenador realice el trazado automáticamente. Seleccionar y aplicar máscara permite perfeccionar incluso los bordes más delicados del cabello.
-      <br><br>
-      Suaviza, expande, contrae, mejora o vuelve a seleccionar. Convierte cualquier selección en una máscara de capa, un trazado vectorial o una forma. Las selecciones inteligentes se procesan en tu propio dispositivo, sin servicios en la nube ni necesidad de crear una cuenta.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/images/photocraft-type.jpg" alt="Texto editándose sobre una imagen de Albert Bierstadt" width="100%">
-      <br>
-      <sub>Un titular editado directamente sobre el lienzo, acompañado de una firma y un párrafo.<br><i>Entre las montañas de Sierra Nevada, California</i>, Albert Bierstadt, 1868</sub>
-      <h3>Texto con acabado profesional</h3>
-      Texto de punto y de párrafo, editable directamente sobre el lienzo, con controles completos de Carácter y Párrafo: fuente, grosor, tamaño, interlineado, espaciado, alineación y color. El <a href="docs/color-picker.md">selector completo de color de texto</a> también permite tomar muestras de la pantalla con una lupa de píxeles.
-      <br><br>
-      Las capas de texto permanecen editables, admiten estilos de capa y son compatibles con la importación y exportación PSD.
+      Copy and paste styles between layers, hide all effects at once, and open styles straight from your PSDs, rendered to match Photoshop.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-vector.jpg" alt="Insignia de loto creada con capas de formas vectoriales" width="100%">
+      <img src="docs/images/photocraft-masks.jpg" alt="Vermeer's Girl with a Pearl Earring: an elliptical selection around the face, and a Hue/Saturation layer with an elliptical mask that turns everything outside the face gray" width="100%">
       <br>
-      <sub>Una insignia formada por capas: un loto con relleno degradado, una estrella y un anillo punteado.<br><i>Los nenúfares</i>, Claude Monet, 1906</sub>
-      <h3>Vectores con precisión de píxel</h3>
-      Herramientas Rectángulo, Elipse, Triángulo, Polígono, Línea y Pluma, Pluma de forma libre y Pluma de curvatura. Incluye capas de formas independientes de la resolución, rellenos degradados y trazos discontinuos y alineados.
+      <sub>An elliptical selection becomes the mask of a Hue/Saturation layer, so only the face keeps its color.<br><i>Girl with a Pearl Earring</i>, Johannes Vermeer, c. 1665</sub>
+      <h3>Selections that understand your image</h3>
+      Marquees, lassos and the Magic Wand for precision; Quick Selection, Object Selection and Select Subject when you want the computer to do the tracing; Select and Mask to refine hair-fine edges.
       <br><br>
-      Combina formas (unir, restar, intersecar y excluir), guarda trazados en el panel Trazados, utilízalos como máscaras vectoriales o aplica trazos y rellenos. Las 116 capas de formas de nuestro conjunto de pruebas PSD coinciden píxel a píxel con Photoshop.
+      Feather, expand, contract, smooth, grow, reselect. Turn any selection into a layer mask, a vector path or a shape. Smart selection runs on your machine, with no cloud and no account.
     </td>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-filters.jpg" alt="Filtro de giro aplicado a La noche estrellada de Van Gogh" width="100%">
+      <img src="docs/images/photocraft-type.jpg" alt="Bierstadt's Among the Sierra Nevada with the headline SIERRA NEVADA being edited on the canvas in Georgia, a byline, and a paragraph caption; the Character and Paragraph controls are open" width="100%">
       <br>
-      <sub>El filtro Giro muestra una vista previa en tiempo real sobre el lienzo, únicamente dentro de la selección.<br><i>La noche estrellada</i>, Vincent van Gogh, 1889</sub>
-      <h3>Visualiza antes de aplicar</h3>
-      Todos los cuadros de diálogo de filtros muestran una vista previa en tiempo real sobre el lienzo, respetando las selecciones.  Incluye desenfoques (gaussiano, de cuadro, de movimiento, radial, de superficie, inteligente, de lente y de forma, además de la Galería de desenfoques: Desplazamiento de inclinación, Iris, Campo, Giro y Trazado), enfoque, reducción de ruido, distorsiones (Giro, Onda, Rizo, Desplazar, Distorsionar, Zigzag...), pixelización, estilización (Pintura al óleo, Viento, Extrusión...), renderizado (Nubes, Fibras, Destello de lente, Efectos de iluminación) y mucho más.
-  <br><br>
-  Si aplicas filtros a un objeto inteligente, estos permanecen editables: puedes modificarlos, ocultarlos, cambiar su orden o aplicarles máscaras en cualquier momento.
-  <br><br>
-  Los desenfoques de gran radio utilizan pasadas de suma acumulada en todos los núcleos. Un desenfoque gaussiano de radio 180 sobre 3,6 megapíxeles tarda menos de un segundo.
-</td>
+      <sub>A headline edited in place, with a byline and a paragraph of body text.<br><i>Among the Sierra Nevada, California</i>, Albert Bierstadt, 1868</sub>
+      <h3>Type that sets beautifully</h3>
+      Point and paragraph text, edited right on the canvas, with full Character and Paragraph controls: font, weight, size, leading, tracking, alignment and colour. The <a href="docs/color-picker.md">full Type Color Picker</a> also supports screen sampling with a pixel loupe.
+      <br><br>
+      Type layers stay editable, take layer styles, and round-trip through PSD.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/images/photocraft-vector.jpg" alt="A lotus badge built from shape layers (Lotus, Water, Sun, Badge and Dotted Ring) over Monet's Water Lilies, with the lotus path's anchor points selected" width="100%">
+      <br>
+      <sub>A badge made of shape layers: a gradient-filled lotus, a star and a dotted ring.<br><i>Water Lilies</i>, Claude Monet, 1906</sub>
+      <h3>Pixel-perfect vectors</h3>
+      Rectangle, Ellipse, Triangle, Polygon, Line and the Pen, Freeform Pen and Curvature Pen tools, with resolution-independent shape layers, gradient fills, and dashed, aligned strokes.
+      <br><br>
+      Combine shapes (unite, subtract, intersect, exclude), keep paths in the Paths panel, use them as vector masks, or stroke and fill them. 116 of 116 shape layers in our PSD corpus match Photoshop's pixels.
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/images/photocraft-filters.jpg" alt="The Twirl filter dialog at a 320 degree angle, previewing live inside an elliptical selection on Van Gogh's The Starry Night" width="100%">
+      <br>
+      <sub>Twirl previews live on the canvas, only inside the selection.<br><i>The Starry Night</i>, Vincent van Gogh, 1889</sub>
+      <h3>See it before you commit</h3>
+      Every filter dialog previews live on the canvas, through your selection. Blurs (Gaussian, Box, Motion, Radial, Surface, Smart, Lens, Shape, and the Blur Gallery: Tilt-Shift, Iris, Field, Spin, Path), sharpening, Reduce Noise, distortions (Twirl, Wave, Ripple, Displace, Shear, Zig Zag…), Pixelate, Stylize (Oil Paint, Wind, Extrude…), Render (Clouds, Fibers, Lens Flare, Lighting Effects) and more.
+      <br><br>
+      Run filters on a smart object and they stay editable: change, hide, reorder or mask them at any time.
+      <br><br>
+      Large-radius blurs use running-sum box passes across all cores: a radius-180 Gaussian on 3.6 MP takes under a second.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/images/photocraft-transform.jpg" alt="Free Transform handles around a rotated copy of Ansel Adams' The Tetons and the Snake River, with the History panel listing Open, Duplicate Layer, Free Transform and other steps" width="100%">
+      <br>
+      <sub>Free Transform on a rotated print, with every step listed in History.<br><i>The Tetons and the Snake River</i>, Ansel Adams, 1942</sub>
+      <h3>Shape it any way you like</h3>
+      Free Transform with scale, rotate, skew, distort and perspective; exact 90° and 180° rotations and flips; Transform Again. Layers, type, shapes, masks and selections all transform together.
+      <br><br>
+      Full history, Toggle Last State and the History Brush mean every step can be undone, even one brush stroke at a time.
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/images/photocraft-export-light.jpg" alt="The Export As dialog in the light theme over Klimt's The Kiss: JPG at quality 90, scaled to 50 percent, with a preview and an estimated size of about 684K" width="100%">
+      <br>
+      <sub>Export As in the light theme, with a preview and a file-size estimate.<br><i>The Kiss</i>, Gustav Klimt, 1907–1908</sub>
+      <h3>Ship it anywhere</h3>
+      Export As with format, quality, transparency and scale, plus a preview and an instant file-size estimate. Quick Export to PNG in one click.
+      <br><br>
+      Choose a dark Pro theme, the airy Studio themes, or a Classic look.
+    </td>
+  </tr>
+</table>
 
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/images/photocraft-transform.jpg" alt="Transformación libre de una imagen de Ansel Adams con el panel Historial abierto" width="100%">
-      <br>
-      <sub>Transformación libre de una impresión girada, con cada paso registrado en el Historial.<br><i>Los Tetons y el río Snake</i>, Ansel Adams, 1942</sub>
-      <h3>Da forma a tus imágenes como quieras</h3>
-      Transformación libre con escala, rotación, inclinación, distorsión y perspectiva. Rotaciones exactas de 90° y 180°, volteo y opción de repetir transformación. Las capas, textos, formas, máscaras y selecciones se transforman conjuntamente.
-      <br><br>
-      El historial completo, Alternar último estado y el Pincel de historia permiten deshacer cualquier paso, incluso pincelada por pincelada.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/images/photocraft-export-light.jpg" alt="Ventana Exportar como con una imagen de Klimt" width="100%">
-      <br>
-      <sub>Exportar como en el tema claro, con vista previa y estimación del tamaño del archivo.<br><i>El beso</i>, Gustav Klimt, 1907–1908</sub>
-      <h3>Exporta tus trabajos a cualquier lugar</h3>
-      Exportar como permite elegir el formato, la calidad, la transparencia y la escala, además de mostrar una vista previa y una estimación instantánea del tamaño del archivo. También incluye Exportación rápida a PNG con un solo clic.
-      <br><br>
-      Elige entre un tema oscuro Pro, los temas claros Studio o una apariencia clásica.
-    </td>
-  </tr>
-</table><br>Todo lo que incluye
+<br>
+
+## Everything in the box
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>🧰 68 herramientas</h4>
-      Mover · Mesa de trabajo · Marco rectangular y elíptico · Marco de fila única · Marco de columna única · Lazo · Lazo poligonal · Lazo magnético · Selección de objetos · Selección rápida · Varita mágica · Recortar · Recorte con perspectiva · Sector · Seleccionar sector · Marco · Cuentagotas · Muestra de color · Regla · Nota · Contar · Quitar · Pincel corrector puntual · Pincel corrector · Parche · Movimiento según contenido · Ojos rojos · Pincel · Lápiz · Pincel mezclador · Sustitución de color · Tampón de clonar · Tampón de motivo · Pincel de historia · Pincel histórico artístico · Borrador · Borrador de fondos · Borrador mágico · Degradado · Bote de pintura · Desenfocar · Enfocar · Dedo · Sobreexponer · Subexponer · Esponja · Pluma · Pluma de forma libre · Pluma de curvatura · Añadir punto de ancla · Eliminar punto de ancla · Convertir punto · Texto horizontal y vertical · Máscara de texto horizontal y vertical · Selección de trazado · Selección directa · Rectángulo · Elipse · Triángulo · Polígono · Línea · Forma personalizada · Mano · Rotar vista · Zoom.
+      <h4>🧰 68 tools</h4>
+      Move · Artboard · Rectangular and Elliptical Marquee · Single Row Marquee · Single Column Marquee · Lasso · Polygonal Lasso · Magnetic Lasso · Object Selection · Quick Selection · Magic Wand · Crop · Perspective Crop · Slice · Slice Select · Frame · Eyedropper · Color Sampler · Ruler · Note · Count · Remove · Spot Healing Brush · Healing Brush · Patch · Content-Aware Move · Red Eye · Brush · Pencil · Mixer Brush · Color Replacement · Clone Stamp · Pattern Stamp · History Brush · Art History Brush · Eraser · Background Eraser · Magic Eraser · Gradient · Paint Bucket · Blur · Sharpen · Smudge · Dodge · Burn · Sponge · Pen · Freeform Pen · Curvature Pen · Add Anchor Point · Delete Anchor Point · Convert Point · Horizontal and Vertical Type · Horizontal and Vertical Type Mask · Path Selection · Direct Selection · Rectangle · Ellipse · Triangle · Polygon · Line · Custom Shape · Hand · Rotate View · Zoom
     </td>
     <td width="33%" valign="top">
-      <h4>🖌️ Un motor de pinceles real</h4>
-      Dinámica de forma, dispersión, textura, pincel doble, dinámica de color, transferencia, posición del pincel, bordes húmedos, acumulación y suavizado (incluido el modo Cuerda tensada).  Compatible con presión, inclinación, rotación y dirección del lápiz digital. Incluye ajustes preestablecidos de pincel, creación de pinceles desde selecciones y trazos deterministas que pueden reproducirse.
-</td>
-<td width="33%" valign="top">
-  <h4>🗃️ Capas bien implementadas</h4>
-  Grupos, máscaras de recorte, máscaras de píxeles y vectoriales, capas de relleno (sólido, degradado y motivo), capas de ajuste, objetos inteligentes editables con filtros inteligentes y transformaciones y deformaciones sin pérdida.
-
-  Selección de varias capas con alineación, distribución y vinculación, canales alfa y Máscara rápida, 27 modos de fusión de Photoshop más seis variantes de Paint.NET, opacidad y relleno, bloqueos, etiquetas de color, filtro por tipo de capa, combinar, acoplar, rasterizar, Capa mediante copia/corte y Pegar dentro.
-</td>
-
+      <h4>🖌️ A real brush engine</h4>
+      Shape Dynamics, Scattering, Texture, Dual Brush, Color Dynamics, Transfer, Brush Pose, Wet Edges, Build-up and Smoothing (including Pulled String), driven by pen pressure, tilt, rotation and direction. Brush presets, Define Brush from Selection, and deterministic, replayable strokes.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🗃️ Layers, done properly</h4>
+      Groups, clipping masks, pixel and vector masks, fill layers (solid, gradient and pattern), adjustment layers, live smart objects with smart filters and lossless transforms and warps, multi-layer selection with align, distribute and link, alpha channels and Quick Mask, 27 Photoshop blend modes plus six Paint.NET variants, opacity and fill, locks, colour labels, a layer kind filter, merge, flatten, rasterize, Layer via Copy/Cut, Paste Into.
+    </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <h4>🎨 Cualquier color y profundidad</h4>
-      Documentos RGB, escala de grises, CMYK y Lab a 8, 16 y 32 bits por canal. La profundidad de bits y el modelo de color son datos dinámicos, por lo que todas las herramientas funcionan con cualquier profundidad.
+      <h4>🎨 Any colour, any depth</h4>
+      RGB, Grayscale, CMYK and Lab documents at 8, 16 and 32 bits per channel. Bit depth and colour model are runtime data, so every tool works at every depth.
       <br><br>
-      Gestión real del color ICC completamente en Rust: perfiles incrustados, Asignar y Convertir a perfil con los cuatro métodos de representación y compensación de punto negro, prueba de color en pantalla (⌘Y) y advertencia de gama (⇧⌘Y) mediante GPU.
+      Real ICC colour management in pure Rust: embedded profiles, Assign and Convert to Profile with all four rendering intents and black point compensation, soft proofing (⌘Y) and Gamut Warning (⇧⌘Y) on the GPU.
     </td>
     <td width="33%" valign="top">
-      <h4>🗂️ Formatos compatibles</h4>
-      PSD y PSB; TIFF con capas (datos de capas de Photoshop dentro del TIFF, con lectura y escritura en ambos órdenes de bytes); <a href="docs/pdn.md">Paint.NET PDN3 (lectura, con capas editables y sus 14 modos de fusión)</a>; <a href="docs/ora.md">OpenRaster (lectura y escritura, con capas, grupos y modos de fusión para Krita, MyPaint y GIMP)</a>; <a href="docs/xcf.md">GIMP XCF (lectura, con capas, grupos, máscaras, modos de fusión, canales y selección)</a>; <a href="docs/kra.md">Krita .kra (lectura, con capas de pintura, grupos, modos de fusión y máscaras de transparencia)</a>; SVG (se abre como capas de formas y se inserta como objeto inteligente vectorial).  También admite PNG, JPEG, TIFF, WebP (con y sin pérdida), GIF, BMP, TGA, ICO, QOI, PNM, OpenEXR, Radiance HDR y FITS (imágenes astronómicas: 8/16 bits y coma flotante de 32 bits, en escala de grises o RGB, conservando la cabecera), además del formato nativo <code>.pcraft</code>.
-  
-  Los formatos planos conservan las profundidades que admiten: PNG conserva muestras de 8/16 bits, TIFF conserva muestras de 8/16 bits y coma flotante de 32 bits, y OpenEXR conserva muestras de media y coma flotante. JPEG, WebP y los demás formatos de 8 bits reducen las muestras de mayor profundidad y muestran una advertencia durante la exportación.
-  
-  Consulta la <a href="crates/codecs/README.md#capability-matrix-default-build">tabla de compatibilidad de formatos</a> para conocer los detalles.
-  
-  Las fotografías HEIC de iPhone y Mac se pueden abrir en modo de solo lectura (incluidas en las versiones oficiales; las compilaciones desde el código fuente pueden activar opcionalmente <code>--features heif</code>).
-  
-  AVIF solo está disponible para escritura mediante la característica opcional de compilación <code>avif</code>. La decodificación AVIF y JPEG XL no están disponibles.
-  
-  Los documentos de Affinity (<code>.af</code>, <code>.afdesign</code>, <code>.afphoto</code>, <code>.afpub</code>) se abren de forma nativa en modo de solo lectura, con mesas de trabajo, capas, vectores, texto, imágenes y máscaras. Los efectos, ajustes y otros elementos no compatibles aparecen en una advertencia. La exportación a formatos de Affinity no está disponible.
-</td>
-<td width="33%" valign="top">
-  <h4>🪄 Herramientas esenciales para el día a día</h4>
-  Tono automático, Contraste automático y Color automático · Igualar · Tamaño de imagen y lienzo · Recortar y ajustar · Mostrar todo · Editar › Rellenar y Trazo · Copiar combinado · Pegar en el mismo lugar · Guías, reglas, cuadrícula y ajuste · Grabación y reproducción de acciones · Paleta de comandos (⌘F).
-</td>
-
+      <h4>🗂️ Formats</h4>
+      PSD and PSB, layered TIFF (Photoshop's layer data in the TIFF, read and written in either byte order), <a href="docs/pdn.md">Paint.NET PDN3 (read, with editable layers and all 14 blend modes)</a>, <a href="docs/ora.md">OpenRaster (read and write, with layers, groups and blend modes, for Krita, MyPaint and GIMP)</a>, <a href="docs/xcf.md">GIMP XCF (read, with layers, groups, masks, blend modes, channels and the selection)</a>, <a href="docs/kra.md">Krita .kra (read, with paint layers, groups, blend modes and transparency masks)</a>, SVG (opens as shape layers, places as a vector Smart Object), plus flat PNG, JPEG, TIFF, WebP (lossy and lossless), GIF, BMP, TGA, ICO, QOI, PNM, OpenEXR, Radiance HDR and FITS (astronomy images: 8/16-bit and 32-bit float, gray or RGB, header kept), and the native <code>.pcraft</code> format. Flat formats retain the depths they support: PNG keeps 8/16-bit samples, TIFF keeps 8/16-bit and 32-bit float samples, and OpenEXR keeps half/float samples; JPEG, WebP and the other 8-bit formats reduce higher-depth samples with an export warning. See the <a href="crates/codecs/README.md#capability-matrix-default-build">codec capability matrix</a> for each format. HEIC photos from iPhone and Mac are read-only (included in official builds; optional <code>--features heif</code> for source builds). AVIF is write-only with the optional <code>avif</code> build feature; AVIF decoding and JPEG XL are unavailable. Affinity documents (<code>.af</code>, <code>.afdesign</code>, <code>.afphoto</code>, <code>.afpub</code>) open natively, read only, with artboards, layers, vectors, text, images and masks; effects, adjustments and other unsupported parts are listed in a warning, and Affinity export is unavailable.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🪄 The everyday essentials</h4>
+      Auto Tone, Contrast and Color · Equalize · Image and Canvas Size · Crop and Trim · Reveal All · Edit › Fill and Stroke · Copy Merged · Paste in Place · guides, rulers, grid and snapping · Actions record and replay · a command palette (⌘F).
+    </td>
   </tr>
-</table><br>Compatibilidad PSD sin compromisos
+</table>
 
-La compatibilidad PSD de PhotoCraft es un módulo independiente, desarrollado a partir de la especificación pública de Adobe y probado con una colección de archivos reales.
+<br>
 
-- Importación y exportación fieles: abrir y volver a guardar un documento produce el mismo resultado visual en 307 de los 309 archivos del conjunto de pruebas de psd-tools y en 169 de los 170 archivos de nuestro conjunto combinado ag-psd/psd-tools ("crates/io/tests/it/corpus.rs"; descarga el conjunto de psd-tools con "cargo xtask corpus --psd-tools"). Los elementos que todavía no modelamos (bloques sin procesar, descriptores y datos adicionales) se conservan en lugar de descartarse. Un archivo guardado nuevamente no es idéntico byte por byte al original: PhotoCraft reescribe los recursos de imagen, los registros de capas y la composición final. Solo el módulo independiente "photocraft-psd", que analiza y escribe archivos sin utilizar el modelo de documento, reproduce byte por byte todos los archivos analizables del conjunto de pruebas ("crates/psd/tests/it/corpus.rs").
-- Píxeles coincidentes: un sistema de comparación contrasta nuestro resultado con la imagen combinada generada por el propio Photoshop. Incluye interpolación de degradados (Clásica, Perceptual y Lineal), efectos de capa, trazos de formas, recortes y opacidad de relleno.
-- Documentos grandes: compatibilidad nativa con PSB, archivos de 16 y 32 bits, y documentos CMYK y Lab.
+## PSD without compromise
 
-Preparado para agentes
+PhotoCraft's PSD support is a standalone crate written from Adobe's public specification and tested against a corpus of real-world files.
 
-Cada elemento de menú, herramienta y cuadro de diálogo ejecuta un comando de un registro común con más de 500 comandos.
+- **Faithful round trips:** opening and re-saving a document renders the same for 307 of the 309 files in the psd-tools test set and 169 of 170 in our mixed ag-psd/psd-tools set (`crates/io/tests/it/corpus.rs`; fetch the psd-tools set with `cargo xtask corpus --psd-tools`), and anything we don't model yet (raw blocks, descriptors, extras) is carried over instead of being dropped. A re-saved file is not byte-identical to its source: PhotoCraft rewrites image resources, layer records and the composite. Only the standalone `photocraft-psd` crate, parsing and writing a file without the document model, reproduces every parseable corpus file byte for byte (`crates/psd/tests/it/corpus.rs`).
+- **Pixels that match:** a composite oracle compares our render with Photoshop's own merged image, covering gradient interpolation (Classic, Perceptual and Linear), layer effects, shape strokes, clipping and fill opacity.
+- **Large documents:** PSB, 16 and 32-bit files, and CMYK and Lab documents open natively.
 
-La interfaz gráfica, la CLI, el canal de control JSON y el servidor MCP utilizan los mismos comandos. Esto significa que cualquier acción que puedas realizar con un clic también puede ejecutarse mediante un script o un agente de inteligencia artificial.
+## Built for agents
 
-# Sin interfaz gráfica: abrir, editar y guardar
+Every menu item, tool and dialog runs a command from one registry of 500+ commands. The UI, the CLI, the JSON control channel and the MCP server all call the same commands, so anything you can click, a script or an AI agent can do too.
+
+```sh
+# Headless: open, edit, save
 photocraft-cli run wave.psd \
   --cmd filter.sharpen.smartSharpen     --params '{"amount":80}' \
   --cmd layer.newAdjustmentLayer.curves --params '{"points":[[0,0],[64,48],[192,212],[255,255]]}' \
   --out wave-final.png
 
-# Aplicar una lista de acciones a una carpeta de imágenes
+# Apply one action list to a folder of images
 photocraft-cli batch --actions grade.json --in ./raw --out ./graded
 
-# Cada subcomando explica cómo utilizarse
+# Every subcommand explains itself
 photocraft-cli batch --help
 
-# Permitir que un agente controle la aplicación mediante MCP
+# Let an agent drive it over MCP (headless, or bridged to the running app)
 photocraft-cli mcp
+```
 
-La aplicación de escritorio también ofrece un canal de control autenticado y limitado a conexiones locales ("photocraft --control"). Permite inspeccionar el estado de la interfaz, controlar herramientas mediante eventos de puntero y realizar capturas fuera de pantalla.
+The desktop app also offers an authenticated, loopback-only control channel (`photocraft --control`) for inspecting UI state, driving tools with pointer events, and taking offscreen screenshots. Every image in this README was rendered that way. See [`docs/control-protocol.md`](docs/control-protocol.md).
 
-Todas las imágenes de este README se generaron de esa manera. Consulta ""docs/control-protocol.md"" (docs/control-protocol.md).
+## Under the hood
 
-Funcionamiento interno
+- **Engine first:** a pure-data document model and a command engine, with a thin egui UI on top. Layering is enforced at build time across 24 crates.
+- **Two compositors:** a CPU compositor serves as the reference oracle, and a wgpu compositor puts the canvas on the GPU. They are tested against each other.
+- **Copy-on-write tiles:** 256² sparse tiles make undo cheap and huge canvases light, and effect maps are cached per layer state.
+- **Runs in the browser:** the whole engine and UI compile to WebAssembly.
+- **Clean-room:** implemented from public specs and observed behaviour only. No proprietary code, shaders or assets.
+- **Tested:** more than 1,700 tests, including PSD round trips, synthetic generators, compositor oracles and multi-depth checks.
 
-- Motor como prioridad: un modelo de documento basado en datos y un motor de comandos, con una interfaz egui ligera. La arquitectura se organiza en 24 módulos independientes.
-- Dos compositores: un compositor CPU sirve como referencia de comparación, mientras que un compositor wgpu utiliza la GPU para representar el lienzo. Ambos se prueban entre sí.
-- Mosaicos con copia al escribir: mosaicos dispersos de 256² permiten realizar deshacer de forma económica y mantener ligeros los lienzos enormes. Los mapas de efectos se almacenan en caché según el estado de cada capa.
-- Funciona en el navegador: todo el motor y la interfaz pueden compilarse a WebAssembly.
-- Desarrollo independiente: implementado únicamente a partir de especificaciones públicas y comportamientos observados. No utiliza código, sombreadores ni recursos propietarios.
-- Probado: más de 1.700 pruebas, incluidas pruebas de importación/exportación PSD, generadores sintéticos, comparaciones de composición y comprobaciones de múltiples profundidades.
+## Get started
 
-Primeros pasos
-
+```sh
 git clone https://github.com/storytold/photocraft
 cd photocraft
-cargo run --release -p photocraft -- image.psd   # aplicación de escritorio
-cargo test --workspace                           # ejecutar las pruebas
+cargo run --release -p photocraft -- image.psd   # the desktop app
+cargo test --workspace                           # the test suite
+```
 
-Las fuentes japonesas de la interfaz y de la herramienta Texto proceden de "craft-fonts" (https://github.com/storytold/craft-fonts), una dependencia de compilación opcional (las versiones oficiales de escritorio siempre las incluyen). Sin ellas, PhotoCraft utiliza las fuentes CJK disponibles en el sistema:
+Japanese fonts for the UI and Type tool come from [craft-fonts](https://github.com/storytold/craft-fonts), an optional build input (desktop release builds always include it). Without it PhotoCraft uses your system's CJK fonts:
 
+```sh
 git clone https://github.com/storytold/craft-fonts ../craft-fonts
 CRAFT_FONTS_DIR="$PWD/../craft-fonts" cargo run --release -p photocraft
+```
 
-Para nuevos colaboradores y agentes de inteligencia artificial: comienza leyendo ""AGENTS.md"" (AGENTS.md) y después consulta ""docs/"" (docs/).
+New contributors and AI agents: start with [`AGENTS.md`](AGENTS.md), then [`docs/`](docs/).
 
-Los instaladores para macOS, Windows, Linux, FreeBSD y la versión web están disponibles en cada "lanzamiento de GitHub" (https://github.com/storytold/photocraft/releases).
+Installers for macOS, Windows, Linux, FreeBSD and the web are attached to each [GitHub release](https://github.com/storytold/photocraft/releases). On Linux you can pick an AppImage, a `.deb`, an `.rpm`, a tarball or a Flatpak bundle. The bundle needs the freedesktop runtime from [Flathub](https://flathub.org/setup), which `flatpak` offers to install along with it:
 
-En Linux puedes elegir entre AppImage, ".deb", ".rpm", un archivo comprimido tarball o un paquete Flatpak. El paquete necesita el entorno de ejecución de freedesktop desde "Flathub" (https://flathub.org/setup), que Flatpak puede instalar junto con la aplicación:
-
-flatpak install --user photocraft-<version>-linux-x86_64.flatpak   # o -linux-aarch64
+```sh
+flatpak install --user photocraft-<version>-linux-x86_64.flatpak   # or -linux-aarch64
 flatpak run ai.storyteller.photocraft
+```
 
-Flatpak imprime mediante el socket CUPS del sistema anfitrión (Archivo › Imprimir se comunica directamente mediante IPP, sin necesidad de "lp"). Si CUPS no está instalado o no hay ninguna impresora disponible, Archivo › Imprimir abre el cuadro de diálogo de impresión del sistema mediante el portal de impresión.
+The Flatpak prints through the host's CUPS socket (File › Print talks IPP to it directly, no `lp` needed); without CUPS, or without a printer, File › Print opens the system print dialog through the print portal. See [printing](docs/printing.md).
 
-Consulta "impresión" (docs/printing.md).
+The AppImage needs no install: the first run registers its launcher icon and menu entry in `~/.local/share` so the dock shows PhotoCraft's icon on Wayland. Set `PHOTOCRAFT_NO_DESKTOP_INTEGRATION=1` to skip that, and see [`docs/releasing.md`](docs/releasing.md) › Linux to undo it.
 
-AppImage no necesita instalación. La primera ejecución registra el icono del lanzador y la entrada del menú en "~/.local/share", de modo que el dock muestre el icono de PhotoCraft en Wayland.
+To use the bundled CLI, run `./photocraft-<version>-linux-x86_64.AppImage --cli --help`, or `--cli mcp` to start the MCP server on stdio. CLI launches skip desktop integration. A symlink named `photocraft-cli` also selects the CLI; see [`docs/development.md`](docs/development.md#headless-cli).
 
-Establece "PHOTOCRAFT_NO_DESKTOP_INTEGRATION=1" para omitir esta integración. Consulta ""docs/releasing.md"" (docs/releasing.md) › Linux para deshacerla.
+On a Wayland session, files dropped on the window don't open yet: winit 0.30, the windowing library under egui, has no Wayland drag and drop (#386). Use File › Open, or copy the image in your file manager and paste it with Ctrl+V. To drag and drop, start PhotoCraft under XWayland: `WAYLAND_DISPLAY= photocraft`, `WAYLAND_DISPLAY= ./photocraft-<version>-linux-x86_64.AppImage`, or `flatpak run --nosocket=wayland --socket=x11 ai.storyteller.photocraft`. On Wayland, PhotoCraft shows the command for your install in a notice until you dismiss it. Preferences › Performance › Linux display server = X11 does the same on every launch. With a fractional display scale (125%, 150%, 175%) an XWayland window is drawn at a lower resolution and enlarged by the compositor, so the interface is blurred there; native Wayland stays sharp (#1072).
 
-Para utilizar la CLI incluida, ejecuta:
+On macOS, the command-line tool comes as `photocraft-cli-<version>-macos-universal.zip`. The binary is signed with the same Developer ID as the app and notarized by Apple. A bare binary can't carry a stapled notarization ticket the way the DMG does, so the first time you run it macOS checks the notarization online. You can confirm it yourself:
 
-./photocraft-<version>-linux-x86_64.AppImage --cli --help
-
-También puedes utilizar "--cli mcp" para iniciar el servidor MCP mediante entrada y salida estándar. Los lanzamientos de la CLI omiten la integración con el escritorio.
-
-Un enlace simbólico llamado "photocraft-cli" también permite seleccionar la CLI. Consulta ""docs/development.md"" (docs/development.md#headless-cli).
-
-En sesiones Wayland, todavía no es posible abrir archivos arrastrándolos directamente sobre la ventana: winit 0.30, la biblioteca de ventanas utilizada por egui, aún no admite esta función en Wayland (#386).
-
-Como alternativa, utiliza Archivo › Abrir o copia la imagen desde el administrador de archivos y pégala con Ctrl+V.
-
-Para arrastrar y soltar archivos, inicia PhotoCraft mediante XWayland:
-
-WAYLAND_DISPLAY= photocraft
-
-O utiliza:
-
-WAYLAND_DISPLAY= ./photocraft-<version>-linux-x86_64.AppImage
-
-También puedes ejecutar:
-
-flatpak run --nosocket=wayland --socket=x11 ai.storyteller.photocraft
-
-En Wayland, PhotoCraft muestra una notificación con el comando correspondiente a tu instalación hasta que la descartes.
-
-La opción Preferencias › Rendimiento › Servidor de pantalla de Linux = X11 realiza lo mismo en cada inicio.
-
-Con escalado fraccional de pantalla (125 %, 150 % o 175 %), una ventana XWayland se dibuja a una resolución inferior y después el compositor la amplía, por lo que la interfaz puede verse borrosa. Wayland nativo mantiene la imagen nítida (#1072).
-
-En macOS, la herramienta de línea de comandos se distribuye como "photocraft-cli-<version>-macos-universal.zip".
-
-El binario está firmado con el mismo certificado Developer ID que la aplicación y cuenta con notarización de Apple.
-
-Un binario independiente no puede incluir un ticket de notarización adherido como ocurre con el archivo DMG, por lo que macOS comprueba la notarización en línea la primera vez que se ejecuta.
-
-Puedes verificarlo tú mismo:
-
+```sh
 ditto -x -k photocraft-cli-<version>-macos-universal.zip .
 spctl --assess --type install -vv photocraft-cli-<version>-macos-universal/photocraft-cli
 # ... accepted, source=Notarized Developer ID
+```
 
-En FreeBSD 14 (x86_64), la versión se distribuye en un archivo tarball organizado como "/usr/local".
+On FreeBSD 14 (x86_64), the release has a tarball laid out like `/usr/local`. Install the runtime libraries, then unpack it there:
 
-Instala las bibliotecas necesarias y después descomprime el paquete:
-
+```sh
 pkg install libxkbcommon wayland libX11 libXcursor libXrandr libXi libxcb mesa-libs vulkan-loader gtk3 fontconfig freetype2 alsa-lib
 tar -xzf photocraft-<version>-freebsd-x86_64.tar.gz --strip-components 1 -C /usr/local
 photocraft
+```
 
-Para los mantenedores: ""docs/releasing.md"" (docs/releasing.md) explica cómo se crean, firman y publican las versiones.
+Maintainers: [`docs/releasing.md`](docs/releasing.md) explains how releases are built, signed and published.
 
-«[!IMPORTANT]
-Estado del proyecto: PhotoCraft se encuentra en una fase alfa inicial. Queremos ser transparentes sobre su situación actual: muchas de las funciones de Photoshop ya existen de alguna forma, pero todavía no es un sustituto completo de Photoshop para el trabajo profesional diario.
+> [!IMPORTANT]
+> **Status:** PhotoCraft is in early alpha, and we want to be straight about where it stands: much of Photoshop's feature surface exists in some form, but **it is not yet a Photoshop replacement for daily professional work**. The biggest gaps are AI/generative features, 15 missing tools, depth in typography and pro workflows, and plug-in compatibility. Every Photoshop menu item is wired to a command ([`docs/parity-checklist.md`](docs/parity-checklist.md)), but that measures wiring, not behaviour. The honest, dimension-by-dimension picture and where we're going next are in the [roadmap](ROADMAP.md) and [parity assessment](docs/target-app-parity.md). Expect rough edges, and please file issues (include your OS, document size, layer count and a screenshot). You can also tell us what broke on [Discord](https://discord.gg/artcraft).
 
-Sus principales limitaciones son las funciones de inteligencia artificial y generación, 15 herramientas todavía pendientes, la profundidad de las funciones tipográficas y los flujos de trabajo profesionales, además de la compatibilidad con complementos.
+## Community packages
 
-Todos los elementos de los menús de Photoshop están conectados a un comando (""docs/parity-checklist.md"" (docs/parity-checklist.md)), pero eso mide su integración, no su comportamiento completo.
+These installers are maintained by community members, not by the PhotoCraft team.
 
-Para conocer la situación real, función por función, y los próximos objetivos, consulta la "hoja de ruta" (ROADMAP.md) y la "evaluación de compatibilidad" (docs/target-app-parity.md).
+On Gentoo, the [::snakebyte overlay](https://github.com/switch87/snakebyte-overlay) packages the Linux release as `media-gfx/photocraft-bin`:
 
-Es posible que encuentres algunos errores o funciones incompletas. Si encuentras problemas, crea un informe e incluye tu sistema operativo, tamaño del documento, número de capas y una captura de pantalla. También puedes informar de los problemas en "Discord" (https://discord.gg/artcraft).»
-
-Paquetes de la comunidad
-
-Estos instaladores son mantenidos por miembros de la comunidad y no por el equipo de PhotoCraft.
-
-En Gentoo, la superposición "::snakebyte overlay" (https://github.com/switch87/snakebyte-overlay) distribuye la versión de Linux como "media-gfx/photocraft-bin":
-
+```sh
 eselect repository add snakebyte git https://github.com/switch87/snakebyte-overlay.git
 emaint sync -r snakebyte
 echo 'media-gfx/photocraft-bin ~amd64' >> /etc/portage/package.accept_keywords/photocraft
 emerge --ask media-gfx/photocraft-bin
+```
 
-Documentación
+## Documentation
 
-La documentación para desarrolladores, arquitectura, automatización, formatos y seguridad se mantiene en el "libro de documentación de PhotoCraft" (book/).
+Developer, architecture, automation, format, and security documentation is maintained in the [PhotoCraft documentation book](book/).
 
-Para alojar tu propia versión web mediante Docker, consulta "Alojamiento web con Docker" (packaging/web/README.md#docker).
+To self-host the browser version with Docker, see [Docker web hosting](packaging/web/README.md#docker).
 
-Seguridad
+## Security
 
-La arquitectura de seguridad, el modelado de amenazas, el fortalecimiento del analizador, las pruebas de fuzzing y la comunicación de vulnerabilidades se explican en la "documentación de seguridad" (book/src/security/) y en la "política de seguridad del repositorio" (SECURITY.md).
+Security architecture, threat modeling, parser hardening, fuzzing, and vulnerability reporting are covered in the [security documentation](book/src/security/) and the repository [security policy](SECURITY.md).
 
-Conjuntos de pruebas
+## Test corpora
 
-PhotoCraft se prueba con archivos reales: nuestros propios documentos PSD creados con Photoshop, disponibles en "photocraft-corpus" (https://github.com/storytold/photocraft-corpus), además de los conjuntos psd-tools, ag-psd y PngSuite, fijados y verificados mediante SHA-256.
+PhotoCraft is tested against real files: our own Photoshop-authored oracle PSDs in
+[photocraft-corpus](https://github.com/storytold/photocraft-corpus) plus the psd-tools, ag-psd and PngSuite sets, pinned and
+sha256-verified. Fetch them with `cargo xtask corpus --all` and run the tests with
+`cargo xtask test-corpus` (details in [docs/development.md](docs/development.md#test-corpora)).
 
-Descárgalos con:
+## Downloads
 
-cargo xtask corpus --all
+**New to PhotoCraft?** Download it from the [PhotoCraft page on getartcraft.com](https://getartcraft.com/apps/photocraft). That's the easiest way to install it.
 
-Ejecuta las pruebas con:
+**Want a specific build or format?** On GitHub, the [latest release](https://github.com/storytold/photocraft/releases/latest) has every build listed below, and [all releases](https://github.com/storytold/photocraft/releases) have earlier versions and their notes. `<ver>` in the file names is the version number, and `SHA256SUMS.txt` lists a checksum for every file.
 
-cargo xtask test-corpus
+### Windows
 
-Encontrarás más información en "docs/development.md" (docs/development.md#test-corpora).
+| Build | Installer | Portable |
+|---|---|---|
+| x64 (64-bit Intel/AMD) | `photocraft-<ver>-windows-x64.msi` | `photocraft-<ver>-windows-x64-portable.zip` |
+| arm64 (Snapdragon and other ARM PCs) | `photocraft-<ver>-windows-arm64.msi` | `photocraft-<ver>-windows-arm64-portable.zip` |
+| x86 (32-bit) | `photocraft-<ver>-windows-x86.msi` | `photocraft-<ver>-windows-x86-portable.zip` |
 
-Descargas
+Installers and executables are code-signed.
 
-¿Eres nuevo en PhotoCraft? Descárgalo desde la "página oficial de PhotoCraft en getartcraft.com" (https://getartcraft.com/apps/photocraft). Es la forma más sencilla de instalarlo.
+### macOS
 
-¿Buscas una versión o formato específico? En GitHub, la "última versión" (https://github.com/storytold/photocraft/releases/latest) contiene todos los paquetes disponibles. En "todas las versiones" (https://github.com/storytold/photocraft/releases) encontrarás ediciones anteriores y sus respectivas notas.
+| Build | File | Notes |
+|---|---|---|
+| App, universal (Apple silicon + Intel) | `photocraft-<ver>-macos-universal.dmg` | Signed and notarized |
+| Command-line tool, universal | `photocraft-cli-<ver>-macos-universal.zip` | Signed and notarized |
 
-"<ver>" en los nombres de los archivos representa el número de versión. El archivo "SHA256SUMS.txt" contiene las sumas de verificación de cada descarga.
+### Linux
 
-Windows
+| Format | x86_64 | aarch64 (ARM64) | Notes |
+|---|---|---|---|
+| AppImage | `photocraft-<ver>-linux-x86_64.AppImage` | `photocraft-<ver>-linux-aarch64.AppImage` | Runs anywhere; updates itself with [AppImageUpdate](https://github.com/AppImageCommunity/AppImageUpdate) (`.zsync` files) |
+| Flatpak | `photocraft-<ver>-linux-x86_64.flatpak` | `photocraft-<ver>-linux-aarch64.flatpak` | Sandboxed; `flatpak install --user <file>` |
+| Debian/Ubuntu | `photocraft-<ver>-linux-x86_64.deb` | `photocraft-<ver>-linux-aarch64.deb` | |
+| Fedora/RHEL/openSUSE | `photocraft-<ver>-linux-x86_64.rpm` | `photocraft-<ver>-linux-aarch64.rpm` | |
+| Tarball | `photocraft-<ver>-linux-x86_64.tar.gz` | `photocraft-<ver>-linux-aarch64.tar.gz` | Unpack anywhere |
 
-Compilación| Instalador| Versión portable
-x64 (Intel/AMD de 64 bits)| "photocraft-<ver>-windows-x64.msi"| "photocraft-<ver>-windows-x64-portable.zip"
-arm64 (Snapdragon y otros PC ARM)| "photocraft-<ver>-windows-arm64.msi"| "photocraft-<ver>-windows-arm64-portable.zip"
-x86 (32 bits)| "photocraft-<ver>-windows-x86.msi"| "photocraft-<ver>-windows-x86-portable.zip"
+RISC-V (riscv64): `photocraft-<ver>-linux-riscv64.tar.gz` only, built against Ubuntu 24.04 (needs glibc 2.39+).
 
-Los instaladores y ejecutables cuentan con firma digital de código.
+### FreeBSD
 
-macOS
+| Build | File |
+|---|---|
+| x86_64 | `photocraft-<ver>-freebsd-x86_64.tar.gz` |
 
-Compilación| Archivo| Información
-Aplicación universal (Apple Silicon e Intel)| "photocraft-<ver>-macos-universal.dmg"| Firmada y notarizada
-Herramienta de línea de comandos universal| "photocraft-cli-<ver>-macos-universal.zip"| Firmada y notarizada
+### Web (WebAssembly)
 
-Linux
+| Build | File | Notes |
+|---|---|---|
+| Static site | `photocraft-web-<ver>.zip` | Runs in a modern browser; host it on any static server |
 
-Formato| x86_64| aarch64 (ARM64)| Información
-AppImage| "photocraft-<ver>-linux-x86_64.AppImage"| "photocraft-<ver>-linux-aarch64.AppImage"| Funciona en cualquier distribución; actualizaciones mediante "AppImageUpdate" (https://github.com/AppImageCommunity/AppImageUpdate) (archivos ".zsync")
-Flatpak| "photocraft-<ver>-linux-x86_64.flatpak"| "photocraft-<ver>-linux-aarch64.flatpak"| Aislado; instalación mediante "flatpak install --user <file>"
-Debian/Ubuntu| "photocraft-<ver>-linux-x86_64.deb"| "photocraft-<ver>-linux-aarch64.deb"| 
-Fedora/RHEL/openSUSE| "photocraft-<ver>-linux-x86_64.rpm"| "photocraft-<ver>-linux-aarch64.rpm"| 
-Archivo comprimido| "photocraft-<ver>-linux-x86_64.tar.gz"| "photocraft-<ver>-linux-aarch64.tar.gz"| Se puede descomprimir en cualquier ubicación
+## The Crafting Apps
 
-RISC-V (riscv64): únicamente "photocraft-<ver>-linux-riscv64.tar.gz", compilado para Ubuntu 24.04 (requiere glibc 2.39 o superior).
+PhotoCraft is one of the **Crafting Apps**: free, open-source creative tools from the
+[ArtCraft](https://getartcraft.com/) team, each written from scratch in Rust and each able to
+stand on its own.
 
-FreeBSD
+| | App | What it's for | Code | Learn more |
+|:-:|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/storytold/photocraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.photocraft.png" alt="" width="32" height="32"> | **PhotoCraft** | Image editing: layers, masks, type and real PSD files | [GitHub](https://github.com/storytold/photocraft) | [Website](https://getartcraft.com/apps/photocraft) |
+| <img src="https://raw.githubusercontent.com/storytold/vectorcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.vectorcraft.png" alt="" width="32" height="32"> | **VectorCraft** | Vector illustration | [GitHub](https://github.com/storytold/vectorcraft) | [Website](https://getartcraft.com/apps/vectorcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/filmcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.filmcraft.png" alt="" width="32" height="32"> | **FilmCraft** | Video editing, color and sound | [GitHub](https://github.com/storytold/filmcraft) | [Website](https://getartcraft.com/apps/filmcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/lightcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.lightcraft.png" alt="" width="32" height="32"> | **LightCraft** | Photo library and raw development | [GitHub](https://github.com/storytold/lightcraft) | [Website](https://getartcraft.com/apps/lightcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/pdfcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.pdfcraft.png" alt="" width="32" height="32"> | **PdfCraft** | Reading, organizing and protecting PDFs | [GitHub](https://github.com/storytold/pdfcraft) | [Website](https://getartcraft.com/apps/pdfcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/effectcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.effectcraft.png" alt="" width="32" height="32"> | **EffectCraft** | Motion graphics and visual effects | [GitHub](https://github.com/storytold/effectcraft) | [Website](https://getartcraft.com/apps/effectcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/designcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.designcraft.png" alt="" width="32" height="32"> | **DesignCraft** | Page layout and publishing | [GitHub](https://github.com/storytold/designcraft) | [Website](https://getartcraft.com/apps/designcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/figcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.figcraft.png" alt="" width="32" height="32"> | **FigCraft** | Interface design and prototyping | [GitHub](https://github.com/storytold/figcraft) | [Website](https://getartcraft.com/apps/figcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/wordcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.wordcraft.png" alt="" width="32" height="32"> | **WordCraft** | Word processing and documents | [GitHub](https://github.com/storytold/wordcraft) | [Website](https://getartcraft.com/apps/wordcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/soundcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.soundcraft.png" alt="" width="32" height="32"> | **SoundCraft** | Audio recording and editing | [GitHub](https://github.com/storytold/soundcraft) | [Website](https://getartcraft.com/apps/soundcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/deckcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.deckcraft.png" alt="" width="32" height="32"> | **DeckCraft** | Presentations and slide decks | [GitHub](https://github.com/storytold/deckcraft) | [Website](https://getartcraft.com/apps/deckcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/cadcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.cadcraft.png" alt="" width="32" height="32"> | **CADCraft** | Computer-aided design | [GitHub](https://github.com/storytold/cadcraft) | [Website](https://getartcraft.com/apps/cadcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/gridcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.gridcraft.png" alt="" width="32" height="32"> | **GridCraft** | Spreadsheets and data | [GitHub](https://github.com/storytold/gridcraft) | [Website](https://getartcraft.com/apps/gridcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/texturecraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.texturecraft.png" alt="" width="32" height="32"> | **TextureCraft** | 3D texture painting | [GitHub](https://github.com/storytold/texturecraft) | [Website](https://getartcraft.com/apps/texturecraft) |
+| <img src="https://raw.githubusercontent.com/storytold/craft-anything/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.craft-anything.png" alt="" width="32" height="32"> | **Craft Anything** | See how any software works, then build your own | [GitHub](https://github.com/storytold/craft-anything) | [Website](https://getartcraft.com/apps/craft-anything) |
+| <img src="https://raw.githubusercontent.com/tangency-labs/solidcraft/main/assets/icons/app/linux/exports/hicolor/64x64/apps/io.tangencylabs.solidcraft.png" alt="" width="32" height="32"> | **SolidCraft** | Parametric 3D CAD by Tangency Labs (community app) | [GitHub](https://github.com/tangency-labs/solidcraft) | |
 
-Compilación| Archivo
-x86_64| "photocraft-<ver>-freebsd-x86_64.tar.gz"
+And [**ArtCraft**](https://getartcraft.com/) itself, our AI image and video studio for artists who want real control.
 
-Web (WebAssembly)
+The Crafting Apps share the same conventions: clean-room and pure Rust, native on macOS, Windows and Linux, in the browser via WebAssembly, and fully drivable by agents.
 
-Compilación| Archivo| Información
-Sitio web estático| "photocraft-web-<ver>.zip"| Funciona en navegadores modernos y puede alojarse en cualquier servidor estático
+<br>
 
-Aplicaciones Crafting
+<p align="center">
+  <a href="https://discord.gg/artcraft"><img alt="Join the ArtCraft community on Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
+</p>
 
-PhotoCraft forma parte de las Crafting Apps: herramientas creativas gratuitas y de código abierto desarrolladas por el equipo de "ArtCraft" (https://getartcraft.com/). Cada aplicación está escrita desde cero en Rust y puede funcionar de manera independiente.
+<h3 align="center">Come make things with us</h3>
 
-| Aplicación| Función principal| Código fuente| Más información
-<img src="https://raw.githubusercontent.com/storytold/photocraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.photocraft.png" alt="" width="32" height="32">| PhotoCraft| Edición de imágenes: capas, máscaras, texto y archivos PSD reales| "GitHub" (https://github.com/storytold/photocraft)| "Sitio web" (https://getartcraft.com/apps/photocraft)
-<img src="https://raw.githubusercontent.com/storytold/vectorcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.vectorcraft.png" alt="" width="32" height="32">| VectorCraft| Ilustración vectorial| "GitHub" (https://github.com/storytold/vectorcraft)| "Sitio web" (https://getartcraft.com/apps/vectorcraft)
-<img src="https://raw.githubusercontent.com/storytold/filmcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.filmcraft.png" alt="" width="32" height="32">| FilmCraft| Edición de vídeo, color y sonido| "GitHub" (https://github.com/storytold/filmcraft)| "Sitio web" (https://getartcraft.com/apps/filmcraft)
-<img src="https://raw.githubusercontent.com/storytold/lightcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.lightcraft.png" alt="" width="32" height="32">| LightCraft| Biblioteca fotográfica y revelado RAW| "GitHub" (https://github.com/storytold/lightcraft)| "Sitio web" (https://getartcraft.com/apps/lightcraft)
-<img src="https://raw.githubusercontent.com/storytold/pdfcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.pdfcraft.png" alt="" width="32" height="32">| PdfCraft| Lectura, organización y protección de archivos PDF| "GitHub" (https://github.com/storytold/pdfcraft)| "Sitio web" (https://getartcraft.com/apps/pdfcraft)
-<img src="https://raw.githubusercontent.com/storytold/effectcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.effectcraft.png" alt="" width="32" height="32">| EffectCraft| Gráficos en movimiento y efectos visuales| "GitHub" (https://github.com/storytold/effectcraft)| "Sitio web" (https://getartcraft.com/apps/effectcraft)
-<img src="https://raw.githubusercontent.com/storytold/designcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.designcraft.png" alt="" width="32" height="32">| DesignCraft| Diseño de páginas y publicación| "GitHub" (https://github.com/storytold/designcraft)| "Sitio web" (https://getartcraft.com/apps/designcraft)
-<img src="https://raw.githubusercontent.com/storytold/figcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.figcraft.png" alt="" width="32" height="32">| FigCraft| Diseño de interfaces y creación de prototipos| "GitHub" (https://github.com/storytold/figcraft)| "Sitio web" (https://getartcraft.com/apps/figcraft)
-<img src="https://raw.githubusercontent.com/storytold/wordcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.wordcraft.png" alt="" width="32" height="32">| WordCraft| Procesamiento de textos y documentos| "GitHub" (https://github.com/storytold/wordcraft)| "Sitio web" (https://getartcraft.com/apps/wordcraft)
-<img src="https://raw.githubusercontent.com/storytold/soundcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.soundcraft.png" alt="" width="32" height="32">| SoundCraft| Grabación y edición de audio| "GitHub" (https://github.com/storytold/soundcraft)| "Sitio web" (https://getartcraft.com/apps/soundcraft)
-<img src="https://raw.githubusercontent.com/storytold/deckcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.deckcraft.png" alt="" width="32" height="32">| DeckCraft| Presentaciones y diapositivas| "GitHub" (https://github.com/storytold/deckcraft)| "Sitio web" (https://getartcraft.com/apps/deckcraft)
-<img src="https://raw.githubusercontent.com/storytold/cadcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.cadcraft.png" alt="" width="32" height="32">| CADCraft| Diseño asistido por ordenador en 3D| "GitHub" (https://github.com/storytold/cadcraft)| "Sitio web" (https://getartcraft.com/apps/cadcraft)
-<img src="https://raw.githubusercontent.com/storytold/gridcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.gridcraft.png" alt="" width="32" height="32">| GridCraft| Hojas de cálculo y datos| "GitHub" (https://github.com/storytold/gridcraft)| "Sitio web" (https://getartcraft.com/apps/gridcraft)
-<img src="https://raw.githubusercontent.com/storytold/texturecraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.texturecraft.png" alt="" width="32" height="32">| TextureCraft| Pintura de texturas 3D| "GitHub" (https://github.com/storytold/texturecraft)| "Sitio web" (https://getartcraft.com/apps/texturecraft)
-<img src="https://raw.githubusercontent.com/storytold/craft-anything/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.craft-anything.png" alt="" width="32" height="32">| Craft Anything| Descubre cómo funciona cualquier software y crea el tuyo propio| "GitHub" (https://github.com/storytold/craft-anything)| "Sitio web" (https://getartcraft.com/apps/craft-anything)
-<img src="https://raw.githubusercontent.com/tangency-labs/solidcraft/main/assets/icons/app/linux/exports/hicolor/64x64/apps/io.tangencylabs.solidcraft.png" alt="" width="32" height="32">| SolidCraft| Diseño CAD paramétrico en 3D de Tangency Labs (aplicación de la comunidad)| "GitHub" (https://github.com/tangency-labs/solidcraft)| 
+<p align="center">
+  Our Discord is where artists of every kind hang out: people who paint, shoot, draw, cut film,
+  set type, and people still figuring out what they like to make. Share what you're working on,
+  ask for help, tell us what's broken, or tell us what you wish these tools could do.
+  Whatever your medium and however long you've been at it, you're welcome here.
+</p>
 
-Y también "ArtCraft" (https://getartcraft.com/), nuestro estudio de inteligencia artificial para crear imágenes y vídeos, diseñado para artistas que desean tener un control real sobre sus creaciones.
-
-Todas las Crafting Apps comparten los mismos principios: desarrollo independiente, código puro en Rust, aplicaciones nativas para macOS, Windows y Linux, funcionamiento en el navegador mediante WebAssembly y compatibilidad completa con agentes.
-
-<br><p align="center">
-  <a href="https://discord.gg/artcraft"><img alt="Únete a la comunidad de ArtCraft en Discord" src="https://img.shields.io/badge/Únete%20a%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
-</p><h3 align="center">Ven a crear con nosotros</h3><p align="center">
-  Nuestro Discord es el punto de encuentro de artistas de todo tipo: personas que pintan, fotografían, dibujan, editan películas, diseñan textos y también quienes todavía están descubriendo qué les gusta crear.
-  Comparte tus proyectos, pide ayuda, informa de errores o cuéntanos qué funciones te gustaría que tuvieran estas herramientas.
-  Sea cual sea tu especialidad y tu experiencia, eres bienvenido.
-</p><p align="center">
+<p align="center">
   <a href="https://discord.gg/artcraft"><b>discord.gg/artcraft</b></a> ·
   <a href="https://getartcraft.com/">getartcraft.com</a> ·
-  <a href="https://getartcraft.com/apps">Aplicaciones Crafting</a> ·
+  <a href="https://getartcraft.com/apps">The Crafting Apps</a> ·
   <a href="https://getartcraft.com/apps/photocraft">PhotoCraft</a>
-</p>---
+</p>
 
-Licencia y créditos
+---
 
-PhotoCraft se distribuye bajo una licencia dual: "MIT" (LICENSE-MIT) o "Apache-2.0" (LICENSE-APACHE), a elección del usuario.
+## License and credits
 
-Copyright (c) 2026 ArtCraft Team y los colaboradores de PhotoCraft. Los avisos legales obligatorios se encuentran en "NOTICE" (NOTICE).
+PhotoCraft is dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your option.
+Copyright (c) 2026 ArtCraft Team and the PhotoCraft contributors. Required notices are in [NOTICE](NOTICE).
 
-Las fuentes, iconos, imágenes y otros recursos incluidos mantienen sus propias licencias de código abierto. Cada uno aparece identificado con su autor, origen y licencia en "ATTRIBUTION.md" (ATTRIBUTION.md).
+Bundled fonts, icons, images and other assets keep their own open licenses; each one is listed
+with its author, source and license in [ATTRIBUTION.md](ATTRIBUTION.md).
 
-Todas las obras mostradas son de dominio público (Wikimedia Commons, NASA y Archivos Nacionales de Estados Unidos). Las fuentes están disponibles en ""docs/images/SOURCES.md"" (docs/images/SOURCES.md).
+Every artwork shown is in the public domain (Wikimedia Commons, NASA, U.S. National Archives); sources are listed in [`docs/images/SOURCES.md`](docs/images/SOURCES.md).
 
-El nombre ArtCraft, su marca denominativa y sus logotipos ubicados en ""docs/brand/"" (docs/brand/) son marcas registradas del equipo ArtCraft y no están cubiertos por esta licencia.
+The ArtCraft name, wordmark and logos in [`docs/brand/`](docs/brand/) are trademarks of the
+ArtCraft Team and are not covered by this license. They may be used only unmodified, and only as
+part of this repository and PhotoCraft, under [`docs/brand/LICENSE-brand.txt`](docs/brand/LICENSE-brand.txt).
+Forks and modified versions must remove them.
 
-Solo pueden utilizarse sin modificaciones y como parte de este repositorio y PhotoCraft, de acuerdo con ""docs/brand/LICENSE-brand.txt"" (docs/brand/LICENSE-brand.txt).
-
-Las bifurcaciones del proyecto (forks) y las versiones modificadas deben eliminar estas marcas.
-
-<sub>Adobe, Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects e InDesign son marcas comerciales o marcas registradas de Adobe Inc. en Estados Unidos y otros países. PhotoCraft es un proyecto independiente y de código abierto que no está afiliado, patrocinado ni respaldado por Adobe Inc. Estos nombres se utilizan únicamente para describir los flujos de trabajo con los que es compatible.</sub>
+<sub>Adobe, Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign are trademarks or registered trademarks of Adobe Inc. in the United States and/or other countries. PhotoCraft is an independent, open-source project and is not affiliated with, sponsored by or endorsed by Adobe Inc.; these names are used only to describe the workflows it is compatible with.</sub>
 
 <p align="center">
   <a href="https://getartcraft.com/"><img alt="ArtCraft" src="docs/brand/artcraft-mark.svg" width="28"></a><br>
-  <sub>Creado por el equipo y la comunidad de <a href="https://getartcraft.com/">ArtCraft</a>.</sub>
-</p>Historial de estrellas
+  <sub>Made by the <a href="https://getartcraft.com/">ArtCraft</a> team and community.</sub>
+</p>
 
-""Gráfico del historial de estrellas" (https://api.star-history.com/svg?repos=storytold/photocraft&type=Date&legend=top-left)" (https://www.star-history.com/?repos=storytold%2Fphotocraft&type=date&legend=top-left)
+## Star history
+
+[![Star History Chart](https://api.star-history.com/svg?repos=storytold/photocraft&type=Date&legend=top-left)](https://www.star-history.com/?repos=storytold%2Fphotocraft&type=date&legend=top-left)
